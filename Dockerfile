@@ -55,7 +55,6 @@ ENV PATH="/root/go/bin:${PATH}"
 
 ## run install.sh
 RUN cd deksterecon &&\
-    git checkout 4319272ec8573afd55206dbe99e2098a47bc33df &&\
     echo "HEAD is at `git rev-parse HEAD`" &&\
     chmod +x install.sh &&\
     /bin/bash install.sh
