@@ -1,0 +1,12 @@
+version: "3.1"
+
+services:
+  dekster:
+    build: .
+    ports:
+      - 3000:3000
+    volumes:
+      - ../scans-output/:/var/www/html
+    environment:
+      - SCANS_OUTPUT_DIR_PATH=/var/www/html
+      - API_HOST=127.0.0.1
