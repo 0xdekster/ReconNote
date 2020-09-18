@@ -40,12 +40,12 @@ export default function (req, res, next) {
       fs.appendFileSync(PROC_LOG_PATH, data.toString());
     });
     proc.on('exit', (code) => {
+      fs.writeFileSync(SCAN_RESULTS_STATUS_FILE, '');
       fs.unlinkSync(SCAN_RESULTS_STATUS_FILE);
     });
   } catch (err) {}
 
   setTimeout(() => {
-    fs.writeFileSync(SCAN_RESULTS_STATUS_FILE, '');
     // req is the Node.js http request object
     // res is the Node.js http response object
     res.setHeader('Content-Type', 'application/json');
