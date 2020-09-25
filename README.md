@@ -4,6 +4,9 @@
 
 ![Image of reconnote](https://github.com/0xdekster/ReconNote/blob/master/reconnote1.png)
 
+# Scan Result
+
+![Image of reconnote2](https://github.com/0xdekster/ReconNote/blob/master/reconnote2.png)
 
 It takes user input as a domain name and maximize the attack surface area by listing the assets of the domain like -
 
