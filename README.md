@@ -18,7 +18,9 @@ It takes user input as a domain name and maximize the attack surface area by lis
 3 - Open docker-compose.yml & change the volumes directory path to the output folder \
 
 example - \
+
 volumes:\
+
       - /root/reconnote/output/:/var/www/html\
    
 4 - Change the API_HOST parameter value to your server/host ip or domain name.\
