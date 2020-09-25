@@ -2,7 +2,7 @@
 
 ## Web Application Security Recon Automation Framework
 
-![Image of reconnote](https://raw.githubusercontent.com/0xdekster/ReconNote/master/reconnote1.png?token=AAI3LABALPZF4ZIK7NWF57C7NWMWM)
+![Image of reconnote](https://github.com/0xdekster/ReconNote/blob/master/reconnote1.png)
 
 
 It takes user input as a domain name and maximize the attack surface area by listing the assets of the domain like -
