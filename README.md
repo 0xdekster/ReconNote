@@ -36,6 +36,10 @@ volumes:
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/jGpgreUY4H8/0.jpg)](https://youtu.be/jGpgreUY4H8)
 
+# Contributions
+
+This is an open source project so contributins are welcome /
+You can request a PR for any changes that can enhance the ReconNote framework be it UI enhancement , tools adjustment ,features , etc..
 
 # Acknowledgements
 
