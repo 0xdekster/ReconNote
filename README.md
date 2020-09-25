@@ -15,13 +15,13 @@ It takes user input as a domain name and maximize the attack surface area by lis
 
 1 - Install Docker & docker-compose according to you OS from here - https://docs.docker.com/get-docker/ \
 2 - git clone https://github.com/0xdekster/ReconNote.git \
-3 - Open docker-compose.yml & change the volumes directory path to the output folder \
+3 - Open docker-compose.yml & change the volumes directory path to the output folder 
 
 example - \
 
-volumes:\
+volumes:
 
-      - /root/reconnote/output/:/var/www/html\
+      - /root/reconnote/output/:/var/www/html 
    
 4 - Change the API_HOST parameter value to your server/host ip or domain name.\
 5 - Run docker-compose build \
@@ -31,7 +31,7 @@ volumes:\
 # Usage
 
 1 - Just enter domain/target name in Add Target & choose scan type\
-2 - Everything will be done by Reconnote and in few minutes , you will get the Scan Results\
+2 - Everything will be done by Reconnote and in few minutes , you will get the Scan Results
 
 # Demo Video
 
