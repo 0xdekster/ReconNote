@@ -30,7 +30,7 @@ volumes:
 # Usage
 
 1 - Just enter domain/target name in Add Target & choose scan type\
-2 - Everything will be done by Reconnote and in few minutes , you will get the Scan Results
+2 - Everything will be done by Reconnote and in few minutes you will get the Scan Results
 
 # Demo Video
 
