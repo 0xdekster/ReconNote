@@ -1,4 +1,5 @@
 # ReconNote
+
 Web Application Security Automation Framework
 
 It takes user input as a domain name and maximize the attack surface area by listing the assets of the domain like -
@@ -10,6 +11,10 @@ It takes user input as a domain name and maximize the attack surface area by lis
 - Httpx Status codes of subdomains
 - Dirsearch file/dir paths by fuzzing
 
+
+# Screen
+
+![Image of reconnote](https://raw.githubusercontent.com/0xdekster/ReconNote/master/reconnote1.png?token=AAI3LAEZG6QDDR2MAHBSJ3K7NWL4M)
 
 # Installation 
 
