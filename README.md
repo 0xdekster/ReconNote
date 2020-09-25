@@ -43,7 +43,7 @@ volumes:
 
 # Contributions
 
-This is an open source project so contributins are welcome /
+This is an open source project so contributins are welcome.
 You can request a PR for any changes that can enhance the ReconNote framework be it UI enhancement , tools adjustment ,features , etc..
 
 # Acknowledgements
