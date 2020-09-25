@@ -35,3 +35,15 @@ volumes:
 # Demo Video
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/jGpgreUY4H8/0.jpg)](https://youtu.be/jGpgreUY4H8)
+
+
+# Acknowledgements
+
+ReconNote Security framework have been created by using the open source security tools made by amazing security community -
+
+
+1- [Eduard Tolosa](https://github.com/Edu4rdSHL/findomain)\
+2- [Tomnomnom](https://github.com/tomnomnom)\
+3- [Michen riksen](https://github.com/michenriksen/aquatone)\
+4- [Project Discovery](https://github.com/projectdiscovery)\
+5- [Corben Leo](https://github.com/lc)
