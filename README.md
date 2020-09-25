@@ -25,7 +25,7 @@ volumes:
       - /root/reconnote/output/:/var/www/html 
    
 4 - Change the API_HOST parameter value to your server/host ip or domain name.\
-5 - Run docker-compose build \
+5 - Run docker-compose build OR docker-compose build --no-cache\
 6 - Run docker-compose up -d\
 7 - Reconnote framework will be up at - {your-server}:3000 
 
