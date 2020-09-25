@@ -29,7 +29,7 @@ export default function (req, res, next) {
   // make folder
   execSync(`mkdir -p ${SCANS_OUTPUT_DIR_PATH}/${query.url}-${cryptoHash}`);
 
-  const proc = exec(jsonData.cmd, { cwd: `/deksterecon` });
+  const proc = exec(jsonData.cmd, { cwd: `/deksterecon`, maxBuffer: 2147483647 });
   try {
     fs.writeFileSync(PROC_LOG_PATH, `==CMD=== \n${jsonData.cmd}\n\n`);
   
