@@ -1,8 +1,8 @@
 version: "3.1"
 
 services:
-  dekster:
-      ulimits:
+ dekster:
+    ulimits:
           nofile:
               soft: 65536
               hard: 65536
