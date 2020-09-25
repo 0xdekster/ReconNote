@@ -1,6 +1,6 @@
 # ReconNote
 
-# Web Application Security Recon Automation Framework
+## Web Application Security Recon Automation Framework
 
 ![Image of reconnote](https://raw.githubusercontent.com/0xdekster/ReconNote/master/reconnote1.png?token=AAI3LABALPZF4ZIK7NWF57C7NWMWM)
 
