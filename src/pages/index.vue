@@ -72,6 +72,7 @@ header h1 {
   font-family: 'Open Sans';
   font-weight: 700;
   font-size: 2rem;
+  margin-left: -39px;
 }
 
 .logo--container {
