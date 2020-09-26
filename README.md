@@ -34,11 +34,11 @@ volumes:
 1 - Just enter domain/target name in Add Target & choose scan type\
 2 - Everything will be done by Reconnote and in few minutes you will get the Scan Results
 
-![Image of reconnote](https://github.com/0xdekster/ReconNote/blob/master/reconnote1.png)
+![Image of reconnote](https://github.com/0xdekster/ReconNote/blob/master/reconnote3.png)
 
 # Scan Result
 
-![Image of reconnote2](https://github.com/0xdekster/ReconNote/blob/master/reconnote2.png)
+![Image of reconnote2](https://github.com/0xdekster/ReconNote/blob/master/reconnote4.png)
 
 # Demo Video
 
