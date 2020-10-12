@@ -5,7 +5,7 @@
 
 It takes user input as a domain name and maximize the attack surface area by listing the assets of the domain like -
 
-- Subdomains from - findomain, subfinder & resolvable subdomains using shuffledns
+- Subdomains from - Amass ,findomain, subfinder & resolvable subdomains using shuffledns
 - Screenshots
 - Port Scan
 - JS files
@@ -28,6 +28,14 @@ volumes:
 5 - Run docker-compose build OR docker-compose build --no-cache\
 6 - Run docker-compose up -d\
 7 - Reconnote framework will be up at - {your-server}:3000 
+
+# Set Amass Config File to set API Keys
+
+1- cd /ReconNote\
+2- docker exec -it reconnote_dekster_1 bash\
+3- cd /deksterrecon\
+4- nano amass-config.ini\
+5- Set your API keys and save, exit.
 
 # Usage
 
