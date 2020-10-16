@@ -15,7 +15,7 @@ It takes user input as a domain name and maximize the attack surface area by lis
 
 # Installation 
 
-1 - Install Docker & docker-compose according to you OS from here - https://docs.docker.com/get-docker/ \
+1 - Install Docker & docker-compose according to your OS from here - https://docs.docker.com/get-docker/ \
 2 - git clone https://github.com/0xdekster/ReconNote.git \
 3 - Open docker-compose.yml & change the volumes directory path to the output folder 
 
