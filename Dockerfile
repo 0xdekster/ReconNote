@@ -15,12 +15,12 @@ ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get -y install golang
 
 ## install nodejs 12
-RUN curl -k -sL https://deb.nodesource.com/setup_12.x | bash - &&\
+RUN curl -sL https://deb.nodesource.com/setup_12.x | bash - &&\
     apt-get install -y nodejs
 
 ## install yarn 1.22
 RUN apt-get install -y gnupg &&\
-    curl -k -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - &&\
+    curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - &&\
     echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list &&\
     apt-get -y update &&\
     apt-get -y remove cmdtest &&\
